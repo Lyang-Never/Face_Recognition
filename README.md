@@ -9,12 +9,15 @@ A face recognition system integrated with ``Retinaface``and ``insightface``.
 
 ``2、 训练``
 首先，我们需要下载训练数据：数据集``wider_face``和原作者所进行标注过后的``annotations``。
+
 wider_face地址：[http://shuoyang1213.me/WIDERFACE/WiderFace_Results.html](http://shuoyang1213.me/WIDERFACE/WiderFace_Results.html)
+
 annotations地址：[https://pan.baidu.com/s/1Laby0EctfuJGgGMgRRgykA](https://pan.baidu.com/s/1Laby0EctfuJGgGMgRRgykA)
 然后，运行``train.py``脚本即可。
 
 ``3、 裁剪和对齐``
-这个运行``align.py``脚本即可。里面写了一个示例，方便理解。若像根据自己的需求进行更改，可见博客详解。地址：[https://blog.csdn.net/qq_37690498/article/details/105196412](https://blog.csdn.net/qq_37690498/article/details/105196412)
+这个运行``align.py``脚本即可。里面写了一个示例，方便理解。若像根据自己的需求进行更改，可见博客详解。
+地址：[https://blog.csdn.net/qq_37690498/article/details/105196412](https://blog.csdn.net/qq_37690498/article/details/105196412)
 
 ``4、 识别``
 运行``faceRec.py``脚本即可。这个是基于摄像头的，根据已有人脸库进行人脸识别，所以需要自己注册人脸信息，完善人脸库。若人脸库不存在人脸信息，则会标识为“None”。
