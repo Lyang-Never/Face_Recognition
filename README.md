@@ -1,7 +1,7 @@
 # 简介
 A face recognition system integrated with ``Retinaface``and ``insightface``.
 ## Retinaface下的一些细节
-以下操作均是建立在*`$FaceRecognition/Retinaface/`*为根目录的基础上。
+以下操作均是建立在`$FaceRecognition/Retinaface/`为根目录的基础上。
 
 ``1、 测试``
 首先，我们来体验下这个人脸检测器的效果。
